@@ -1,12 +1,12 @@
 {
   "embeddings": [
     {
-      "tensorName": "RIT",
+      "tensorName": "Deep NightSight (DNS) Embedding Projector",
       "tensorShape": [3979, 2048],
       "tensorPath": "oss_data/tensor.bytes",
       "sprite": {
         "imagePath": "oss_data/sprites.png",
-        "singleImageDim": [100, 100]
+        "singleImageDim": [256, 256]
       }
     }
   ],
