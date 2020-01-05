@@ -12422,22 +12422,22 @@ vz-projector {
 </style>
 
 <div id="container">
-  <div id="appbar">
-    <div>Embedding Projector</div>
-    <div class="icons">
-      <a title="Documentation" target="_blank" href="[[documentationLink]]">
-        <paper-icon-button icon="help-outline"></paper-icon-button>
-        <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-          Open documentation
-        </paper-tooltip>
-      </a>
-      <a title="Report bug" target="_blank" href="[[bugReportLink]]">
-        <paper-icon-button icon="bug-report"></paper-icon-button>
-        <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
-          Report a bug
-        </paper-tooltip>
-      </a>
-    </div>
+  <div id="appbar" style="background-color:black">
+    <div>Deep NightSight - Embedding Projector</div>
+    // <div class="icons">
+    //   <a title="Documentation" target="_blank" href="[[documentationLink]]">
+    //     <paper-icon-button icon="help-outline"></paper-icon-button>
+    //     <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
+    //       Open documentation
+    //     </paper-tooltip>
+    //   </a>
+    //   <a title="Report bug" target="_blank" href="[[bugReportLink]]">
+    //     <paper-icon-button icon="bug-report"></paper-icon-button>
+    //     <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
+    //       Report a bug
+    //     </paper-tooltip>
+    //   </a>
+    // </div>
   </div>
   <vz-projector route-prefix="[[routePrefix]]" serving-mode="[[servingMode]]" projector-config-json-path="[[projectorConfigJsonPath]]" page-view-logging="[[pageViewLogging]]" event-logging="[[eventLogging]]">
   </vz-projector>
@@ -12453,7 +12453,7 @@ Polymer({is:"vz-projector-app",properties:{pageViewLogging:{type:Boolean,value:!
   
   
 
-  <title>Embedding projector - visualization of high-dimensional data</title>
+  <title>Deep NightSight Embedding Projector</title>
   <style include="vz-projector-styles"></style>
   <style>
     html {
